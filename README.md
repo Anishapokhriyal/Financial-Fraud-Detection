@@ -1,10 +1,4 @@
-from pathlib import Path
-
-readme = r"""# Financial Fraud Detection Model with Interactive Dashboard
-
-> An end-to-end, locally runnable financial fraud detection system combining machine learning, risk scoring, REST APIs, an interactive dashboard, real-time simulation, database persistence, and alerting.
-
-## 📌 Project Overview
+📌 Project Overview
 
 Financial fraud detection is an imbalanced classification problem where fraudulent transactions are relatively rare but can have significant financial impact.
 
