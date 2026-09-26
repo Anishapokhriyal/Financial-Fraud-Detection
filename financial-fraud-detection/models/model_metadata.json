@@ -1,0 +1,39 @@
+{
+  "model_name": "Decision Tree",
+  "model_version": "1.0",
+  "selection_metric": "F1",
+  "metrics": {
+    "Accuracy": 0.843,
+    "Precision": 0.3216,
+    "Recall": 0.5729,
+    "F1": 0.412,
+    "ROC_AUC": 0.8218,
+    "PR_AUC": 0.3076
+  },
+  "numeric_features": [
+    "Transaction_Amount",
+    "Is_International",
+    "Previous_Transactions",
+    "Average_Spend",
+    "Account_Age_Days",
+    "transaction_hour",
+    "transaction_dayofweek",
+    "is_weekend",
+    "amount_to_avg_ratio",
+    "amount_deviation",
+    "log_transaction_amount",
+    "account_age_years",
+    "is_new_account",
+    "suspicious_keyword_flag"
+  ],
+  "categorical_features": [
+    "Merchant_Category",
+    "Payment_Method",
+    "Device_Type",
+    "Location"
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "train_fraud_rate": 0.0965,
+  "test_fraud_rate": 0.096
+}
